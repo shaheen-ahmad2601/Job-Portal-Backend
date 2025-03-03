@@ -1,8 +1,8 @@
-# Job Portal Backend
+# Job Portal
 
 ## Overview
 
-The Job Portal Backend is a REST API built with **Node.js** and **Express.js**, designed to facilitate job postings by employers and job applications by job seekers. This backend manages user authentication, job postings, job searching, and application tracking efficiently.
+The Job Portal Backend is a RESTful API built with Node.js, Express.js, and MongoDB, enabling secure job postings, searches, and applications. It features data modeling with Mongoose, JWT authentication, role-based access control (RBAC), middleware validation, and logging for efficiency and security. Following REST principles, it ensures scalability with asynchronous operations and database indexing, making it a robust solution for job portals.
 
 ---
 
@@ -28,8 +28,6 @@ The Job Portal Backend is a REST API built with **Node.js** and **Express.js**, 
 
 ---
 
-## Installation
-
 ### Prerequisites
 
 Ensure the following are installed on your system:
@@ -43,3 +41,6 @@ Ensure the following are installed on your system:
    ```bash
    git clone https://github.com/your-username/job-portal-backend.git
    cd job-portal-backend
+2. Install Dependencies
+   - npm install or npm i
+3. npm run start or npm start
